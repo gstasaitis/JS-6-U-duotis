@@ -9,7 +9,7 @@ var remfirst = document.getElementById("remfirst")
 var remlast = document.getElementById("remlast")
 
 // Console
-// console.log(inputName, inputSurname, inputAge, listTable, addBtn, rowCount)
+console.log(inputName, inputSurname, inputAge, listTable, addBtn, rowCount)
 
 function addRow() {
     var newRow = listTable.insertRow(-1)
@@ -53,26 +53,6 @@ function remLast(){
     }
     else (document.getElementById("listTable").deleteRow(-1))
 }
-
-
-
-
-// function remLast(){
-
-//     var lastIndex = rowCount.length -1
-    
-//     // validacija 
-//     if(rowCount.length < 1){
-//         alert("Jau ištrinta viskas")
-//     } else {
-//         var lastIndex = rowCount.length -1 
-//     }
-//     rowCount[lastIndex].remove(-1)
-// }
-// console.log(listTable, rowCount)
-
-
-
 
 
 
