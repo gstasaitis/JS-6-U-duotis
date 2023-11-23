@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-6 Užduotis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Append Table</h1>
+    <div>
+        <input id="inputName" type="text" placeholder="Vardas">
+        <input id="inputSurname" type="text" placeholder="Pavardė">
+        <input id="inputAge" type="number" placeholder="Amžius">
+    </div>
+    <div>
+        <button id="addBtn" onclick="addRow()">Pridėti</button>
+        <button id="remfirst" onclick="remFirst()">Ištrinti pirmą</button>
+        <button id="remlast" onclick="remLast()">Ištrinti paskutinį</button>
+    </div>
+
+<table id="listTable">
+    <thead>
+        <tr>
+            <th>VARDAS</th>
+            <th>PAVARDĖ</th>
+            <th>AMŽIUS</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr id="rowCount">
+            <td>Jonas</td>
+            <td>Rimkus</td>
+            <td>54</td>
+        </tr>
+
+        <tr id="rowCount">
+            <td>Vestina</td>
+            <td>Petronytė</td>
+            <td>31</td>
+        </tr>
+
+        <tr id="rowCount">
+            <td>Marius</td>
+            <td>Dulinskas</td>
+            <td>23</td>
+        </tr>
+    </tbody>
+</table>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
